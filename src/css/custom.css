@@ -1,0 +1,145 @@
+/**
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ *
+ * @format
+ */
+
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #25c2a0;
+  --ifm-color-primary-dark: rgb(33, 175, 144);
+  --ifm-color-primary-darker: rgb(31, 165, 136);
+  --ifm-color-primary-darkest: rgb(26, 136, 112);
+  --ifm-color-primary-light: rgb(70, 203, 174);
+  --ifm-color-primary-lighter: rgb(102, 212, 189);
+  --ifm-color-primary-lightest: rgb(146, 224, 208);
+  --ifm-code-font-size: 95%;
+  --ifm-navbar-height: 3rem;
+}
+
+.docusaurus-highlight-code-line {
+  background-color: rgb(72, 77, 91);
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+}
+
+#__docusaurus
+  .docTitle_node_modules-\@docusaurus-theme-classic-lib-theme-DocItem- {
+  font-size: 2rem;
+}
+
+#__docusaurus
+  .docSidebarContainer_node_modules-\@docusaurus-theme-classic-lib-theme-DocPage- {
+  border-right-color: transparent;
+}
+
+.tableOfContents_node_modules-\@docusaurus-theme-classic-lib-theme-TOC- {
+  -ms-overflow-style: none;
+  overflow: -moz-scrollbars-none;
+}
+
+.tableOfContents_node_modules-\@docusaurus-theme-classic-lib-theme-TOC-::-webkit-scrollbar {
+  width: 0 !important;
+}
+
+@media (min-width: 997px) {
+  .menu_node_modules-\@docusaurus-theme-classic-lib-theme-DocSidebar-::-webkit-scrollbar {
+    width: 0 !important;
+  }
+  .menu_node_modules-\@docusaurus-theme-classic-lib-theme-DocSidebar- {
+    -ms-overflow-style: none;
+    overflow: -moz-scrollbars-none;
+  }
+}
+
+.navbar--fixed-top {
+  top: -1px;
+}
+
+#__docusaurus .menu__link {
+  align-items: center;
+}
+
+#__docusaurus
+  .docSidebarContainer_node_modules-\@docusaurus-theme-classic-lib-theme-DocPage- {
+  width: auto;
+}
+.menu {
+  width: 300px;
+}
+
+.menu__list .menu__list {
+  padding-right: 24px;
+}
+
+.featureImage_src-pages- {
+  object-fit: none;
+}
+
+.pagination-nav__sublabel {
+  display: none;
+}
+
+.pagination-nav {
+  justify-content: space-between;
+}
+
+.pagination-nav__item {
+  flex-basis: auto;
+  flex-grow: 0;
+}
+
+.pagination-nav__link {
+  padding: 8px 28px;
+  border-radius: 6px;
+}
+
+.footer__links {
+  margin-bottom: 2rem;
+}
+
+.footer {
+  padding-bottom: 24px;
+}
+
+.footer > .container > div:last-child {
+  font-size: 16px;
+}
+
+#__docusaurus .menu__link--sublist:after {
+  background-size: 1.25rem 1.25rem;
+}
+
+#__docusaurus .markdown > h1 {
+  --ifm-h1-font-size: 1.8rem;
+}
+
+#__docusaurus .markdown > h2 {
+  --ifm-h2-font-size: 1.6rem;
+}
+
+#__docusaurus .markdown > h3 {
+  --ifm-h3-font-size: 1.4rem;
+}
+
+#__docusaurus .markdown > h4 {
+  --ifm-h4-font-size: 1.4rem;
+}
+
+#__docusaurus .markdown > h5 {
+  --ifm-h5-font-size: 1.2rem;
+}
+
+#__docusaurus .markdown > h6 {
+  --ifm-h6-font-size: 1rem;
+}
