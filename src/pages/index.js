@@ -17,7 +17,7 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: '精简书写 CSS',
+    title: '简化书写 CSS',
     imageUrl: 'img/smartphone-scheduled-breaks-by-oblik-studio.svg',
     description: (
       <>

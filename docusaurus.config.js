@@ -9,7 +9,7 @@
 
 module.exports = {
   title: 'Retouch',
-  tagline: '精简书写 CSS 的轻量工具',
+  tagline: '简化书写 CSS 的轻量工具',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -93,7 +93,7 @@ module.exports = {
       //   href: 'https://opensource.facebook.com',
       // },
       // Please do not remove the credits, help to publicize Docusaurus :)
-      copyright: `Built with Docusaurus. Landing images by unDraw.`,
+      copyright: `Built with Docusaurus. Deploys by Vercel.`,
     },
   },
   presets: [
@@ -104,13 +104,14 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            'https://github.com/xiamu14/retouch-doc/tree/master',
         },
         blog: {
           showReadingTime: true,
+          blogTitle: "最近博客",
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+            'https://github.com/xiamu14/retouch-doc/tree/master',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
