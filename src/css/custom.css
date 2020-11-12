@@ -60,6 +60,14 @@
     -ms-overflow-style: none;
     overflow: -moz-scrollbars-none;
   }
+  div[class~='sidebar'] {
+    -ms-overflow-style: none;
+    overflow: -moz-scrollbars-none;
+    overflow-x: hidden;
+  }
+  div[class~='sidebar']::-webkit-scrollbar {
+    width: 0 !important;
+  }
 }
 
 .navbar--fixed-top {
